@@ -1,0 +1,81 @@
+.read_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.read_container{
+ background-color: #afd7ff;
+ padding: 2rem;
+ border-radius:.5rem;
+ margin-top: 2rem;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+}
+.read_title{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.read_create{
+    font-size: 2rem;
+    font-weight: 700;
+}
+td{
+    padding: 1.3rem;
+}
+th{
+    padding: .5rem;
+}
+.read_update,.read_delete{
+    padding: .5rem;
+    font-size: .8rem;
+    font-weight: 600;
+    border-radius: .4rem;
+    border-color: #afd7ff;
+}
+.read_update{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(114, 255, 114);
+}
+.read_update:hover{
+    color: rgb(114, 255, 114);
+    background-color: #fff;
+}
+.read_delete{
+    color: #fff;
+    background-color: rgb(255, 128, 128);
+    cursor: pointer;
+}
+.read_delete:hover{
+    color: rgb(255, 128, 128);
+    background-color: #fff;
+}
+.td_name,.td_email{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left!important;
+}
+
+.show_create{
+    font-size: 1rem;
+    padding: .4rem;
+    margin-left: 3rem;
+    border-radius: .3rem;
+    background-color: #00c7c7;
+   color: #fff;
+    border-color: #00c7c7;
+}
+.show_create:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #00c7c7;
+}
